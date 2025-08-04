@@ -145,7 +145,7 @@ RETURN black_ratio, white_ratio
 We evaluate the model performance using a **confusion matrix**.
 
 ### 🔎 Confusion Matrix
-Below is the confusion matrix from our experiment:
+Below is our confusion matrix format:
 
 ![Confusion Matrix](paper/figures/confusion_matrix.jpg)  
 *Figure 3. Confusion matrix for bird detection.*
