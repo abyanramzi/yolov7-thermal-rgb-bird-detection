@@ -36,7 +36,7 @@ The performance of the detection model is then compared across both camera types
 ### Topology
 The topology below illustrates the overall data flow and system components.
 
-![System Topology](paper/figures/topology.jpg)  
+![System Topology](paper/figures/topology.png)  
 *Figure 1. Proposed system topology for bird detection.*
 
 This system is composed of the following components:
@@ -54,7 +54,7 @@ This system is composed of the following components:
 5. Results are returned and displayed on the dashboard.  
 
 ### Illustration
-![System Illustration](paper/figures/system_illustration.jpg)  
+![System Illustration](paper/figures/system_illustration.png)  
 *Figure 2. Hardware setup with RGB and Thermal cameras.*
 
 ---
