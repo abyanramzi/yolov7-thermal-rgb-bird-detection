@@ -154,44 +154,94 @@ Below is the confusion matrix from our experiment:
 ### 📊 Results
 
 #### 🖼️ Using RGB Camera Without Cage Cover
-| Cage Type |            F1 Score             |
-|           |-----------|----------|----------|
-|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
-|-----------|-----------|----------|----------|
-| 1         | 92,10%    | 78,78%   | 59,64%   |
-| 2         | 97,50%    |97,50%    |97,50%    |
-| 3         | 0%        |0%        |0%        |
-| 4         | 0%        |0%        |0%        |
-| 5         | 0%        |0%        |0%        |
+<table>
+  <tr>
+    <th rowspan="2">Cage Type</th>
+    <th colspan="3">F1 Score</th>
+  </tr>
+  <tr>
+    <th>Th = 0.25</th>
+    <th>Th = 0.50</th>
+    <th>Th = 0.75</th>
+  </tr>
+  <tr>
+    <td>1</td><td>92.10%</td><td>78.78%</td><td>59.64%</td>
+  </tr>
+  <tr>
+    <td>2</td><td>97.50%</td><td>97.50%</td><td>97.50%</td>
+  </tr>
+  <tr>
+    <td>3</td><td>0%</td><td>0%</td><td>0%</td>
+  </tr>
+  <tr>
+    <td>4</td><td>0%</td><td>0%</td><td>0%</td>
+  </tr>
+  <tr>
+    <td>5</td><td>0%</td><td>0%</td><td>0%</td>
+  </tr>
+</table>
 
 ---
 
 #### 🌡️ Using Thermal Camera Without Cage Cover
-| Cage Type |            F1 Score             |
-|           |-----------|----------|----------|
-|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
-|-----------|-----------|----------|----------|
-| 1         | 96,87%    | 96,06%   | 96,06%   |
-| 2         | 96,69%    | 96,69%   | 97,91%   |
-| 3         | 43,75%    | 45,71%   | 50,00%   |
-| 4         | 75,75%    | 75,75%   | 75,75%   |
-| 5         | 92,30%    | 93,33%   | 93,33%   |
+<table>
+  <tr>
+    <th rowspan="2">Cage Type</th>
+    <th colspan="3">F1 Score</th>
+  </tr>
+  <tr>
+    <th>Th = 0.25</th>
+    <th>Th = 0.50</th>
+    <th>Th = 0.75</th>
+  </tr>
+  <tr>
+    <td>1</td><td>96.87%</td><td>96.06%</td><td>96.06%</td>
+  </tr>
+  <tr>
+    <td>2</td><td>96.69%</td><td>96.69%</td><td>97.91%</td>
+  </tr>
+  <tr>
+    <td>3</td><td>43.75%</td><td>45.71%</td><td>50.00%</td>
+  </tr>
+  <tr>
+    <td>4</td><td>75.75%</td><td>75.75%</td><td>75.75%</td>
+  </tr>
+  <tr>
+    <td>5</td><td>92.30%</td><td>93.33%</td><td>93.33%</td>
+  </tr>
+</table>
 
 ---
 
 #### 🌡️ Using Thermal Camera With Cage Cover
-| Cover Type|            F1 Score             |
-|           |-----------|----------|----------|
-|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
-|-----------|-----------|----------|----------|
-| 1         | 89,76%    | 89,25%   | 87,71%   |
-| 2         | 97,43%    | 97,43%   | 97,43%   |
-| 3         | 43,75%    | 45,71%   | 50,00%   |
-| 4         | 75,75%    | 75,75%   | 75,75%   |
-| 5         | 92,30%    | 93,33%   | 93,33%   |
+<table>
+  <tr>
+    <th rowspan="2">Cover Type</th>
+    <th colspan="3">F1 Score</th>
+  </tr>
+  <tr>
+    <th>Th = 0.25</th>
+    <th>Th = 0.50</th>
+    <th>Th = 0.75</th>
+  </tr>
+  <tr>
+    <td>1</td><td>89.76%</td><td>89.25%</td><td>87.71%</td>
+  </tr>
+  <tr>
+    <td>2</td><td>97.43%</td><td>97.43%</td><td>97.43%</td>
+  </tr>
+  <tr>
+    <td>3</td><td>43.75%</td><td>45.71%</td><td>50.00%</td>
+  </tr>
+  <tr>
+    <td>4</td><td>75.75%</td><td>75.75%</td><td>75.75%</td>
+  </tr>
+  <tr>
+    <td>5</td><td>92.30%</td><td>93.33%</td><td>93.33%</td>
+  </tr>
+</table>
 
 ---
-
 
 ## ✅ Conclusion
 
