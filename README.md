@@ -1,4 +1,4 @@
-# 🐦 A Vision-Based Approach to Bird Counting and Species Classification in Cages
+# 🐦 SYSTEM FOR CALCULATING NUMBERS AND CLASSIFICATION OF BIRD SPECIES IN CAGES IN WILDLIFE TRADE USING DEEP LEARNING ALGORITHMS
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![YOLOv7](https://img.shields.io/badge/YOLO-v7-green)
@@ -36,7 +36,7 @@ The performance of the detection model is then compared across both camera types
 ### Topology
 The topology below illustrates the overall data flow and system components.
 
-![System Topology](paper/figures/topology.png)  
+![System Topology](paper/figures/topology.jpg)  
 *Figure 1. Proposed system topology for bird detection.*
 
 This system is composed of the following components:
@@ -54,7 +54,7 @@ This system is composed of the following components:
 5. Results are returned and displayed on the dashboard.  
 
 ### Illustration
-![System Illustration](paper/figures/system_illustration.png)  
+![System Illustration](paper/figures/system_illustration.jpg)  
 *Figure 2. Hardware setup with RGB and Thermal cameras.*
 
 ---
@@ -129,14 +129,13 @@ RETURN black_ratio, white_ratio
 
 ### 🔎 Measurement Result
 
-| Type | Cage Contour | Ratio   |
-|------|--------------|---------|
-| 1    | ![](results/cage1.png) | 27.38% |
-| 2    | ![](results/cage2.png) | 28.99% |
-| 3    | ![](results/cage3.png) | 62.79% |
-| 4    | ![](results/cage4.png) | 51.52% |
-| 5    | ![](results/cage5.png) | 68.93% |
-| 6    | ![](results/cage6.png) | 95.24% |
+| Type | Cage Contour           | Ratio  |
+|------|------------------------|--------|
+| 1    | ![](paper/figures/cage1.jpg) | 27.38% |
+| 2    | ![](paper/figures/cage2.jpg) | 28.99% |
+| 3    | ![](paper/figures/cage3.jpg) | 62.79% |
+| 4    | ![](paper/figures/cage4.jpg) | 51.52% |
+| 5    | ![](paper/figures/cage5.jpg) | 68.93% |
 
 ---
 
@@ -147,7 +146,7 @@ We evaluate the model performance using a **confusion matrix**.
 ### 🔎 Confusion Matrix
 Below is the confusion matrix from our experiment:
 
-![Confusion Matrix](results/confusion_matrix.png)  
+![Confusion Matrix](paper/figures/confusion_matrix.jpg)  
 *Figure X. Confusion matrix for bird detection.*
 
 ---
@@ -155,46 +154,41 @@ Below is the confusion matrix from our experiment:
 ### 📊 Results
 
 #### 🖼️ Using RGB Camera Without Cage Cover
-| Cage Type | Threshold | F1 Score |
-|-----------|-----------|----------|
-| 1         | 0.25      | 92.1%    |
-| 1         | 0.50      | 92.1%    |
-| 1         | 0.75      | 92.1%    |
-| ...       | ...       | ...      |
-| 6         | ...       | ...      |
+| Cage Type |            F1 Score             |
+|           |-----------|----------|----------|
+|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
+|-----------|-----------|----------|----------|
+| 1         | 92,10%    | 78,78%   | 59,64%   |
+| 2         | 97,50%    |97,50%    |97,50%    |
+| 3         | 0%        |0%        |0%        |
+| 4         | 0%        |0%        |0%        |
+| 5         | 0%        |0%        |0%        |
 
 ---
 
 #### 🌡️ Using Thermal Camera Without Cage Cover
-| Cage Type | Threshold | F1 Score |
-|-----------|-----------|----------|
-| 1         | 0.25      | 92.1%    |
-| 1         | 0.50      | 92.1%    |
-| 1         | 0.75      | 92.1%    |
-| ...       | ...       | ...      |
-| 6         | ...       | ...      |
-
----
-
-#### 🖼️ Using RGB Camera With Cage Cover
-| Cage Type | Threshold | F1 Score |
-|-----------|-----------|----------|
-| 1         | 0.25      | 92.1%    |
-| 1         | 0.50      | 92.1%    |
-| 1         | 0.75      | 92.1%    |
-| ...       | ...       | ...      |
-| 6         | ...       | ...      |
+| Cage Type |            F1 Score             |
+|           |-----------|----------|----------|
+|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
+|-----------|-----------|----------|----------|
+| 1         | 96,87%    | 96,06%   | 96,06%   |
+| 2         | 96,69%    | 96,69%   | 97,91%   |
+| 3         | 43,75%    | 45,71%   | 50,00%   |
+| 4         | 75,75%    | 75,75%   | 75,75%   |
+| 5         | 92,30%    | 93,33%   | 93,33%   |
 
 ---
 
 #### 🌡️ Using Thermal Camera With Cage Cover
-| Cage Type | Threshold | F1 Score |
-|-----------|-----------|----------|
-| 1         | 0.25      | 92.1%    |
-| 1         | 0.50      | 92.1%    |
-| 1         | 0.75      | 92.1%    |
-| ...       | ...       | ...      |
-| 6         | ...       | ...      |
+| Cover Type|            F1 Score             |
+|           |-----------|----------|----------|
+|           | Th = 0,25 | Th = 0,5 | Th = 0,75|
+|-----------|-----------|----------|----------|
+| 1         | 89,76%    | 89,25%   | 87,71%   |
+| 2         | 97,43%    | 97,43%   | 97,43%   |
+| 3         | 43,75%    | 45,71%   | 50,00%   |
+| 4         | 75,75%    | 75,75%   | 75,75%   |
+| 5         | 92,30%    | 93,33%   | 93,33%   |
 
 ---
 
