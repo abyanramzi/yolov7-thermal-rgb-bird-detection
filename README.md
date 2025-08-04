@@ -247,7 +247,7 @@ Below is our confusion matrix format:
 ## ✅ Conclusion
 
 - The **best RGB camera performance** was achieved in the **second cage**,  
-  with an **F1 score of 97.5%**.  
+  with an **F1 score of 97.50%**.  
 - Using a **thermal camera** consistently improved detection accuracy compared to the RGB camera.  
 - With the **RGB camera**, birds were not detected in **cages 3 to 5**.  
 - With the **thermal camera**, birds were successfully detected even in the cage with the highest contour,  
