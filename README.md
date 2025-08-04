@@ -131,11 +131,11 @@ RETURN black_ratio, white_ratio
 
 | Type | Cage Contour                                | Ratio  |
 |------|---------------------------------------------|--------|
-| 1    | <img src="paper/figures/cage1.jpg" height="120"> | 27.38% |
-| 2    | <img src="paper/figures/cage2.jpg" height="120"> | 28.99% |
-| 3    | <img src="paper/figures/cage3.jpg" height="120"> | 62.79% |
-| 4    | <img src="paper/figures/cage4.jpg" height="120"> | 51.52% |
-| 5    | <img src="paper/figures/cage5.jpg" height="120"> | 68.93% |
+| 1    | <img src="paper/figures/cage1.jpg" height="200"> | 27.38% |
+| 2    | <img src="paper/figures/cage2.jpg" height="200"> | 28.99% |
+| 3    | <img src="paper/figures/cage3.jpg" height="200"> | 62.79% |
+| 4    | <img src="paper/figures/cage4.jpg" height="200"> | 51.52% |
+| 5    | <img src="paper/figures/cage5.jpg" height="200"> | 68.93% |
 
 
 ---
@@ -148,7 +148,7 @@ We evaluate the model performance using a **confusion matrix**.
 Below is the confusion matrix from our experiment:
 
 ![Confusion Matrix](paper/figures/confusion_matrix.jpg)  
-*Figure X. Confusion matrix for bird detection.*
+*Figure 3. Confusion matrix for bird detection.*
 
 ---
 
