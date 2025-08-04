@@ -232,13 +232,16 @@ Below is our confusion matrix format:
     <td>2</td><td>97.43%</td><td>97.43%</td><td>97.43%</td>
   </tr>
   <tr>
-    <td>3</td><td>43.75%</td><td>45.71%</td><td>50.00%</td>
+    <td>3</td><td>59.64%</td><td>51.85%</td><td>33.34%</td>
   </tr>
   <tr>
-    <td>4</td><td>75.75%</td><td>75.75%</td><td>75.75%</td>
+    <td>4</td><td>61.01%</td><td>49.05%</td><td>46.73%</td>
   </tr>
   <tr>
-    <td>5</td><td>92.30%</td><td>93.33%</td><td>93.33%</td>
+    <td>5</td><td>0%</td><td>0%</td><td>0%</td>
+  </tr>
+  <tr>
+    <td>6</td><td>0%</td><td>0%</td><td>0%</td>
   </tr>
 </table>
 
