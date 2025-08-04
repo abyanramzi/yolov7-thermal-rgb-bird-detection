@@ -129,13 +129,14 @@ RETURN black_ratio, white_ratio
 
 ### 🔎 Measurement Result
 
-| Type | Cage Contour           | Ratio  |
-|------|------------------------|--------|
-| 1    | ![](paper/figures/cage1.jpg) | 27.38% |
-| 2    | ![](paper/figures/cage2.jpg) | 28.99% |
-| 3    | ![](paper/figures/cage3.jpg) | 62.79% |
-| 4    | ![](paper/figures/cage4.jpg) | 51.52% |
-| 5    | ![](paper/figures/cage5.jpg) | 68.93% |
+| Type | Cage Contour                                | Ratio  |
+|------|---------------------------------------------|--------|
+| 1    | <img src="paper/figures/cage1.jpg" height="120"> | 27.38% |
+| 2    | <img src="paper/figures/cage2.jpg" height="120"> | 28.99% |
+| 3    | <img src="paper/figures/cage3.jpg" height="120"> | 62.79% |
+| 4    | <img src="paper/figures/cage4.jpg" height="120"> | 51.52% |
+| 5    | <img src="paper/figures/cage5.jpg" height="120"> | 68.93% |
+
 
 ---
 
