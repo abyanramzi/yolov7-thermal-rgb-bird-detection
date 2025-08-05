@@ -251,7 +251,7 @@ Below is our confusion matrix format:
 
 | RGB Prediction                          | Thermal Prediction                      |
 |-----------------------------------------|-----------------------------------------|
-| <img src="results/predict_result/output_rgb.jpg" width="300"> | <img src="results/predict_result/output_thermal.jpg" width="300"> |
+| <img src="results/predict_result_example/output_rgb.jpg" width="300"> | <img src="results/predict_result_example/output_thermal.jpg" width="300"> |
 
 
 ---
