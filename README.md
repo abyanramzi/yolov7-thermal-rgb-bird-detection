@@ -257,10 +257,7 @@ The two prediction results below illustrate different conditions captured by the
 |----------------|-------------------|
 | <img src="results/predict_result_example/output_rgb.jpg" width="320"> | <img src="results/predict_result_example/output_thermal.jpg" width="320"> |
 
-<p align="center">
-  <i>Figure: Comparison of detection results using RGB (left) and Thermal (right) cameras.</i>
-</p>
-
+*Figure 4. Comparison of detection results using RGB (left) and Thermal (right) cameras.*
 
 ---
 
