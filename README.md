@@ -247,6 +247,15 @@ Below is our confusion matrix format:
 
 ---
 
+## 🖼️ Example of Prediction Results
+
+| RGB Prediction                          | Thermal Prediction                      |
+|-----------------------------------------|-----------------------------------------|
+| <img src="results/predict_result/output_rgb.jpg" width="300"> | <img src="results/predict_result/output_thermal.jpg" width="300"> |
+
+
+---
+
 ## ✅ Conclusion
 
 - The **best RGB camera performance** was achieved in the **second cage**,  
