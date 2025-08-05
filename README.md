@@ -249,9 +249,17 @@ Below is our confusion matrix format:
 
 ## 🖼️ Example of Prediction Results
 
-| RGB Prediction                          | Thermal Prediction                      |
-|-----------------------------------------|-----------------------------------------|
-| <img src="results/predict_result_example/output_rgb.jpg" width="300"> | <img src="results/predict_result_example/output_thermal.jpg" width="300"> |
+The two prediction results below illustrate different conditions captured by the RGB and Thermal cameras.  
+- **RGB Prediction**: Actual condition includes 4 quails, 1 pigeon, and 5 lovebirds.  
+- **Thermal Prediction**: Actual condition includes 8 quails.  
+
+| RGB Prediction | Thermal Prediction |
+|----------------|-------------------|
+| <img src="results/predict_result_example/output_rgb.jpg" width="320"> | <img src="results/predict_result_example/output_thermal.jpg" width="320"> |
+
+<p align="center">
+  <i>Figure: Comparison of detection results using RGB (left) and Thermal (right) cameras.</i>
+</p>
 
 
 ---
